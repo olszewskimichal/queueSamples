@@ -1,6 +1,5 @@
 package pl.michal.olszewski.queue.rabbit;
 
-import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +11,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class ValueObject{
+public class ValueObject {
+
   private String name;
 }
